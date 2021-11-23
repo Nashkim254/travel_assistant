@@ -6,6 +6,7 @@ import 'package:flutter_google_places/flutter_google_places.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:jua_area/details.dart';
+import 'package:jua_area/filter.dart';
 import 'package:jua_area/ui/auth/service/auth_service.dart';
 import 'package:location/location.dart' as locationManager;
 
@@ -14,7 +15,9 @@ GoogleMapsPlaces _places = GoogleMapsPlaces(apiKey: kGoogleApiKey);
 SizedBox zeroHeightSizedBox = SizedBox(height: 0);
 String autID = FirebaseAuth.instance.currentUser.uid;
 final AuthService _auth = AuthService();
-int _index = 0;
+  int _currentIndex = 0;
+
+  int _selected = 0;
 
 class HomePage extends StatefulWidget {
   @override
@@ -45,22 +48,46 @@ class HomePageState extends State<HomePage> {
 
     return Scaffold(
         key: homeScaffoldKey,
-        bottomNavigationBar: BottomNavigationBar(
-            currentIndex: _index,
-            onTap: (index) {
-              setState(() {
-                _index = index;
-              });
-            },
-            items: [
-              BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-              BottomNavigationBarItem(icon:  IconButton(
-              icon: Icon(Icons.search),
-              onPressed: () {
-                _handlePressButton();
-              },
-            ), label: "Search")
-            ]),
+        bottomNavigationBar: BottomAppBar(
+        shape: CircularNotchedRectangle(),
+        child: Container(
+          padding: EdgeInsets.only(left: 5.0, right: 5.0),
+          height: 60,
+          color: Colors.white54,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              IconButton(
+                  icon: Icon(
+                    Icons.home,
+                    color: Colors.lightBlueAccent,
+                  ),
+                  onPressed: () {
+                    setState(() {
+                      _currentIndex = 0;
+                    });
+                  }),
+              IconButton(
+                  icon: Icon(Icons.search,color: Colors.grey,),
+                  onPressed: () {
+                    setState(() {
+                      _currentIndex = 1;
+                      _handlePressButton();
+                    });
+                  }),
+              IconButton(
+                  icon: Icon(Icons.navigation,color: Colors.grey,),
+                  onPressed: () {
+                    setState(() {
+                      _currentIndex = 2;
+                      Navigator.push(context, MaterialPageRoute(builder: (_)=>Filter()));
+                    });
+                  }),
+              
+            ],
+          ),
+        ),
+      ),
         appBar: AppBar(
           title: const Text("Jua Area"),
           actions: <Widget>[
@@ -73,6 +100,12 @@ class HomePageState extends State<HomePage> {
                     icon: Icon(Icons.refresh),
                     onPressed: () {
                       refresh();
+                    },
+                  ),
+                  IconButton(
+                    icon: Icon(Icons.logout),
+                    onPressed: () {
+                      _auth.signOut();
                     },
                   ),
           ],

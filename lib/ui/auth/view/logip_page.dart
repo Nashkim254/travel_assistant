@@ -66,8 +66,6 @@ class _SignInState extends State<SignIn> {
                             ],
                           ),
                           buildGestureDetectorSignUp(context),
-                          SizedBox(height: 55),
-                          buildRowLoginOptions()
                         ],
                       ),
                     ),
@@ -137,33 +135,7 @@ class _SignInState extends State<SignIn> {
     );
   }
 
-  Row buildRowLoginOptions() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        SignInButton(
-          Buttons.Facebook,
-          mini: true,
-          onPressed: () {},
-        ),
-        SignInButton(
-          Buttons.LinkedIn,
-          mini: true,
-          onPressed: () {},
-        ),
-        SignInButton(
-          Buttons.Twitter,
-          mini: true,
-          onPressed: () {},
-        ),
-        SignInButton(
-          Buttons.Pinterest,
-          mini: true,
-          onPressed: () {},
-        ),
-      ],
-    );
-  }
+ 
 
   RichText buildRichTextSignUp() {
     return RichText(

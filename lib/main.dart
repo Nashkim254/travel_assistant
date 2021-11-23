@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:jua_area/models/services/application_bloc.dart';
 import 'package:provider/provider.dart';
 import 'package:jua_area/core/base/model/user_model.dart';
 import 'package:jua_area/ui/auth/service/auth_service.dart';
@@ -12,7 +13,11 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
       .then((_) {
-    runApp(MyApp());
+    runApp(MultiProvider(providers: [
+      ChangeNotifierProvider(
+        create: (context) => ApplicationBloc(),
+      ),
+    ], child: MyApp()));
   });
 }
 

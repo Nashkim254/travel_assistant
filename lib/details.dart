@@ -136,10 +136,11 @@ class PlaceDetailState extends State<PlaceDetailWidget> {
               itemCount: photos.length,
               itemBuilder: (context, index) {
                 return Padding(
-                    padding: EdgeInsets.only(right: 1.0),
-                    child: SizedBox(
+                    padding: EdgeInsets.only(right:10,left:10,top:10 ),
+                    child: Container(
                       height: 100,
                       child: Image.network(
+                        
                           buildPhotoURL(photos[index].photoReference)),
                     ));
               })));
@@ -217,7 +218,7 @@ class PlaceDetailState extends State<PlaceDetailWidget> {
                 EdgeInsets.only(top: 0.0, left: 8.0, right: 8.0, bottom: 4.0),
             child: Text(
               placeDetail.website,
-              style: Theme.of(context).textTheme.caption,
+              style: TextStyle(color: Colors.lightBlueAccent),
             )),
       );
     }

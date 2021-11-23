@@ -71,8 +71,6 @@ class _SignInState extends State<Register> {
                             ],
                           ),
                           buildGestureDetectorSignIn(context),
-                          SizedBox(height: 55),
-                          buildRowRegisterOptions()
                         ],
                       ),
                       margin: EdgeInsets.symmetric(horizontal: 20),
@@ -142,17 +140,7 @@ class _SignInState extends State<Register> {
     );
   }
 
-  Row buildRowRegisterOptions() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        SignInButton(Buttons.Facebook, mini: true, onPressed: () {}),
-        SignInButton(Buttons.LinkedIn, mini: true, onPressed: () {}),
-        SignInButton(Buttons.Twitter, mini: true, onPressed: () {}),
-        SignInButton(Buttons.Pinterest, mini: true, onPressed: () {}),
-      ],
-    );
-  }
+
 
   RichText buildRichTextSignIn() {
     return RichText(
