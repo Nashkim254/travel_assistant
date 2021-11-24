@@ -170,6 +170,14 @@ class _FilterState extends State<Filter> {
                             selected:
                             applicationBloc.placeType  =='bank',
                             selectedColor: Colors.blue),
+                            FilterChip(
+                            label: Text('Hotel'),
+                            onSelected: (val) =>
+                                applicationBloc
+                                    .togglePlaceType('hotel', val),
+                            selected:
+                            applicationBloc.placeType  =='hotel',
+                            selectedColor: Colors.blue),
                       ],
                     ),
                   )
