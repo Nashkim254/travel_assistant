@@ -3,7 +3,7 @@ import 'package:jua_area/models/places.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 class PlacesService {
-  final key = 'YOUR_KEY';
+  final key = 'AIzaSyBfE8-06S2c5_u-mZaX7_cKP6F7_ErvVgQ';
 
   Future<List<PlaceSearch>> getAutocomplete(String search) async {
     var url =

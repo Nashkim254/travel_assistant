@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/firebase_auth/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/firebase_auth/intermediates/res/merged/release/layout/browser_actions_context_menu_page.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/92b3ee598445ae83b6a69e6db81d6332/transformed/browser-1.0.0/res/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/firebase_auth/intermediates/res/merged/release/layout/browser_actions_context_menu_row.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/92b3ee598445ae83b6a69e6db81d6332/transformed/browser-1.0.0/res/layout/browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/firebase_auth/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/firebase_auth/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/firebase_auth/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/firebase_auth/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/firebase_auth/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout/notification_template_icon_group.xml"
+    }
+]

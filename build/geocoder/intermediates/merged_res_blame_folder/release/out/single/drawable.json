@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/geocoder/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/geocoder/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/geocoder/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/geocoder/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/drawable/notification_icon_background.xml"
+    }
+]

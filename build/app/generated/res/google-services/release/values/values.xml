@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">397332988101-ngp837vr70d3justft6foslllpq684nf.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">397332988101</string>
+    <string name="google_api_key" translatable="false">AIzaSyBFa4kg_xuvqeyczhUfJIhO6-YP5xZhLK0</string>
+    <string name="google_app_id" translatable="false">1:397332988101:android:b2f57ee6c95708c842b0ac</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBFa4kg_xuvqeyczhUfJIhO6-YP5xZhLK0</string>
+    <string name="google_storage_bucket" translatable="false">travelassistant-98d23.appspot.com</string>
+    <string name="project_id" translatable="false">travelassistant-98d23</string>
+</resources>

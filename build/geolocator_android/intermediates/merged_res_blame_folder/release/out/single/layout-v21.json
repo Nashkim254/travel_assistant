@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/geolocator_android/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/geolocator_android/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/geolocator_android/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/value8/AndroidStudioProjects/trafo_social/build/geolocator_android/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

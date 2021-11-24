@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/value8/AndroidStudioProjects/trafo_social/build/url_launcher/intermediates/incremental/mergeReleaseResources/merged.dir/values-de/values-de.xml",
+            "map": [
+                {
+                    "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/value8/AndroidStudioProjects/trafo_social/build/url_launcher/intermediates/res/merged/release/values-de/values-de.xml",
+            "map": [
+                {
+                    "source": "/Users/value8/.gradle/caches/transforms-3/a22a507eb616aa061b8959911d89e399/transformed/core-1.1.0/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
